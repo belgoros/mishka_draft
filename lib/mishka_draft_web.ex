@@ -84,7 +84,7 @@ defmodule MishkaDraftWeb do
       # HTML escaping functionality
       import Phoenix.HTML
       # Core UI components and translation
-      import MishkaDraftWeb.CoreComponents
+      use MishkaDraftWeb.Components.MishkaComponents
       import MishkaDraftWeb.Gettext
 
       # Shortcut for generating JS commands
