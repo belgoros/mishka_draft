@@ -8,8 +8,7 @@ defmodule MishkaDraftWeb.HomeLive do
 
   def render(assigns) do
     ~H"""
-    <h1><Welcome to Home Live!/h1>
-
+    <h1>Welcome to Home Live!</h1>
     """
   end
 end
